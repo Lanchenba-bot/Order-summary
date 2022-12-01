@@ -1,0 +1,141 @@
+
+:root{
+    --main-color: #382ae1;
+    --text-color: #abafbd;
+    --container: white;
+    --heading-color: #1d2e56;
+}
+
+/* ------- Global Settings ------- */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+::before
+::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('image/pattern-background-desktop.svg');  
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #e0e8ff;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Arial, sans-serif;
+    
+}
+button{
+    text-align: center;
+}
+section{
+    margin: 0 2em 2em 2em;
+    
+}
+.container{
+    width: 300px;
+    background-color: var(--container);
+    border-radius: 12px;
+    
+   
+}
+.img{
+    width: 300px;
+    
+}
+.image-hero img{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-bottom: 1em;
+    
+}
+h2{
+    margin: 1em;
+    text-align: center;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+p{
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 12px;
+}
+.music-plan{
+    display: flex;
+    align-items: center;
+    margin: 1em 0 1em 0;
+    background-color: #F8F9FE;
+    padding: 1em;
+    border-radius: 12px;
+    
+}
+
+
+.audio-thumbnail img{
+    height: 40px;
+    width: 40px;
+}
+.annual-plan{
+    margin-left: 0.5em;
+    margin-right: 3em;
+}
+.annual-plan h5{
+    font-size: 12px;
+    font-weight: 600;
+}
+.annual-plan span{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.change-plan a{
+    font-size: 10px;
+    font-weight: 600;
+    color: #382ae1;
+
+}
+.h5{
+    color: var(--heading-color);
+}
+.submit{
+    display: flex;
+    justify-content:center;
+}
+.btn-submit{
+    width: 100%;
+    padding: 1em;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    border: 0 ;
+    box-shadow: 0px 24px 35px 2px rgba(56,58,225,0.29);
+}
+.btn-submit:hover{
+    background-color: #766cf1;
+    cursor: pointer;
+}
+
+.cancel{
+    margin-top: 1em;
+    display: flex;
+    justify-content:center;
+}
+.btn-cancel{
+    background-color: transparent;
+    border: 0;
+    font-size: 12px;
+    margin-bottom: 0.5em;
+}
+.btn-cancel:hover{
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
